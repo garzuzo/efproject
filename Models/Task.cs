@@ -11,6 +11,7 @@ public class Task
     public string Description { get; set; }
     public Priority TaskPriority { get; set; }
     public DateTime CreationDate { get; set; }
+    public DateTime DueDate { get; set; }
     public virtual Category Category { get; set; }
     public string Summary { get; set; }
 
